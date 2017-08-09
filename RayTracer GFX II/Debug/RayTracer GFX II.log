@@ -1,0 +1,24 @@
+﻿Build started 07/04/2016 10:35:52.
+     1>Project "C:\Users\Alex Cordon\Documents\raytracer\RayTracer GFX II\RayTracer GFX II.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I./Libs/include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Raytracer.cpp
+         Raytracer.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Alex Cordon\Documents\raytracer\Debug\RayTracer GFX II.exe" /INCREMENTAL /NOLOGO /LIBPATH:./Libs/lib/GL glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Alex Cordon\Documents\raytracer\Debug\RayTracer GFX II.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Alex Cordon\Documents\raytracer\Debug\RayTracer GFX II.lib" /MACHINE:X86 /SAFESEH Debug\AppMain.obj
+         Debug\Polygon.obj
+         Debug\Raytracer.obj
+         Debug\World.obj
+         Debug\Cube.obj
+         Debug\Object.obj
+         Debug\Sphere.obj
+         Debug\Triangle.obj
+         Debug\Color.obj
+         Debug\Image.obj
+         Debug\Plane.obj
+         Debug\Reader.obj
+         RayTracer GFX II.vcxproj -> C:\Users\Alex Cordon\Documents\raytracer\Debug\RayTracer GFX II.exe
+     1>Done Building Project "C:\Users\Alex Cordon\Documents\raytracer\RayTracer GFX II\RayTracer GFX II.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.09
